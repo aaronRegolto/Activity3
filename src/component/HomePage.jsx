@@ -2,19 +2,21 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div style={{ maxWidth: '700px', lineHeight: '1.6' }}>
+    <div className='Home'>
       <h1>Home Page</h1>
       <section>
         <h2>Conditional Rendering</h2>
         <p>
-          It is the process of displaying different UI elements or components based on specific conditions, such as user authentication state, data loading status, or user input
+          It is the process of displaying different UI elements or components based on specific conditions, 
+          such as user authentication state, data loading status, or user input
         </p>
       </section>
 
       <section>
         <h2>useEffect</h2>
         <p>
-          In React, useEffect is a built-in Hook used to manage side effects in functional components. Side effects are operations that occur outside the scope of a standard UI render.
+          In React, useEffect is a built-in Hook used to manage side effects in functional components. 
+          Side effects are operations that occur outside the scope of a standard UI render.
         </p>
       </section>
 

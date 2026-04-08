@@ -10,13 +10,15 @@ const PriceChecker = () => {
   }, []);
 
   return (
-    <div>
-      <h2>Price Checker</h2>
-      <ProductDetails
-        onCalculate={(data) => setBill(data)}
-        onReset={() => setBill(null)}
-      />
-      {bill && <BillingDetails data={bill} />}
+    <div className="price-checker-container">
+      <div className="price-checker-card">
+        <h1 className="price-checker-title">Price Checker</h1>
+        <ProductDetails
+          onCalculate={(data) => setBill(data)}
+          onReset={() => setBill(null)}
+        />
+        {bill && <BillingDetails data={bill} />}
+      </div>
     </div>
   );
 };

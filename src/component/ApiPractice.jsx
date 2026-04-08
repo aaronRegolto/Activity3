@@ -39,7 +39,7 @@ const ApiPractice = () => {
 
       {!loading && !error && (
         <div>
-          <h2>Posts</h2>
+          <h2>Posts Method</h2>
           <table
             style={{
               width: '100%',
